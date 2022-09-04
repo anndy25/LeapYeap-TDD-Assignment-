@@ -14,7 +14,7 @@ class LeapYearTest {
             leapYear.isLeapYear(-2010) ;
         });
     }
-    // TODO:- Year which is not divisible by 4, that are not Leap year;
+    // TODO:- All years not divisible by 4 are NOT leap years (e.g. 2017, 2018, 2019).
     @Test
     void yearWhichIsNotDivisibleByFour(){
         assertEquals(Boolean.FALSE,leapYear.isLeapYear(2017));
@@ -24,13 +24,18 @@ class LeapYearTest {
 
     //TODO:- All years divisible by 4 but not by 100 ARE leap years (e.g., 2008, 2012, 2016),
     @Test
-    void leapYearWhenNotDivisibleByFour(){
+    void yearWhichIsDivisibleByFourButNotHundred(){
 
         assertEquals(Boolean.TRUE,leapYear.isLeapYear(2008));
         assertEquals(Boolean.TRUE,leapYear.isLeapYear(2012));
         assertEquals(Boolean.TRUE,leapYear.isLeapYear(2016));
 
     }
+
+
+
+
+
 
 
 
