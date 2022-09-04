@@ -41,6 +41,16 @@ class LeapYearTest {
 
     }
 
+    //TODO:- All years divisible by 100 but not by 400 are NOT leap years (so, for example, 1700, 1800, and 1900 were NOT leap years, NOR will 2100 be a leap year),
+    @Test
+    void yearWhichIsDivisibleByHundredButNotFourHundred(){
+
+        assertEquals(Boolean.FALSE,leapYear.isLeapYear(1700));
+        assertEquals(Boolean.FALSE,leapYear.isLeapYear(1800));
+        assertEquals(Boolean.FALSE,leapYear.isLeapYear(1900));
+
+    }
+
 
 
 

@@ -50,7 +50,7 @@
       <recent name="com.leapyear" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LeapYearTest.yearWhichIsDivisibleByFourHundred">
+  <component name="RunManager" selected="JUnit.LeapYearTest.yearWhichIsDivisibleByHundredButNotFourHundred">
     <configuration name="LeapYearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeapYear" />
       <extension name="coverage">
@@ -62,22 +62,6 @@
       <option name="PACKAGE_NAME" value="com.leapyear" />
       <option name="MAIN_CLASS_NAME" value="com.leapyear.LeapYearTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeapYearTest.errorShouldThrowForNegativeYear (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeapYear" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leapyear.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leapyear" />
-      <option name="MAIN_CLASS_NAME" value="com.leapyear.LeapYearTest" />
-      <option name="METHOD_NAME" value="errorShouldThrowForNegativeYear" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,13 +114,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LeapYearTest.yearWhichIsDivisibleByHundredButNotFourHundred" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeapYear" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leapyear.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leapyear" />
+      <option name="MAIN_CLASS_NAME" value="com.leapyear.LeapYearTest" />
+      <option name="METHOD_NAME" value="yearWhichIsDivisibleByHundredButNotFourHundred" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LeapYearTest.yearWhichIsDivisibleByHundredButNotFourHundred" />
         <item itemvalue="JUnit.LeapYearTest.yearWhichIsDivisibleByFourHundred" />
         <item itemvalue="JUnit.LeapYearTest" />
         <item itemvalue="JUnit.LeapYearTest.yearWhenNotDivisibleByFour" />
         <item itemvalue="JUnit.LeapYearTest.leapYearWhenNotDivisibleByFour" />
-        <item itemvalue="JUnit.LeapYearTest.errorShouldThrowForNegativeYear (1)" />
       </list>
     </recent_temporary>
   </component>
