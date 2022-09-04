@@ -7,6 +7,7 @@
     <list default="true" id="83392f5e-d4a4-4135-8279-b54c6d92b9de" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/leapyear/LeapYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leapyear/LeapYear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leapyear/LeapYearTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leapyear/LeapYearTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,22 @@
       <recent name="com.leapyear" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LeapYearTest.errorShouldThrowForNegativeYear (1)">
+  <component name="RunManager" selected="JUnit.LeapYearTest">
+    <configuration name="LeapYearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeapYear" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leapyear.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leapyear" />
+      <option name="MAIN_CLASS_NAME" value="com.leapyear.LeapYearTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LeapYearTest.errorShouldThrowForNegativeYear (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeapYear" />
       <extension name="coverage">
@@ -84,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LeapYearTest" />
         <item itemvalue="JUnit.LeapYearTest.errorShouldThrowForNegativeYear (1)" />
         <item itemvalue="JUnit.LeapYearTest.errorShouldThrowForNegativeYear" />
       </list>
