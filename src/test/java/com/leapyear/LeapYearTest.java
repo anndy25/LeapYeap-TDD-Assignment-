@@ -32,6 +32,15 @@ class LeapYearTest {
 
     }
 
+    //TODO:- All years divisible by 400 ARE leap years (so, for example, 2000 was indeed a leap year),
+    @Test
+    void yearWhichIsDivisibleByFourHundred(){
+
+        assertEquals(Boolean.TRUE,leapYear.isLeapYear(2000));
+        assertEquals(Boolean.TRUE,leapYear.isLeapYear(4000));
+
+    }
+
 
 
 
