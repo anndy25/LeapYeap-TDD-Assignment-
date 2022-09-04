@@ -50,7 +50,7 @@
       <recent name="com.leapyear" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LeapYearTest">
+  <component name="RunManager" selected="JUnit.LeapYearTest.leapYearWhenNotDivisibleByFour">
     <configuration name="LeapYearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeapYear" />
       <extension name="coverage">
@@ -98,8 +98,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LeapYearTest.leapYearWhenNotDivisibleByFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeapYear" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leapyear.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leapyear" />
+      <option name="MAIN_CLASS_NAME" value="com.leapyear.LeapYearTest" />
+      <option name="METHOD_NAME" value="leapYearWhenNotDivisibleByFour" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LeapYearTest.leapYearWhenNotDivisibleByFour" />
         <item itemvalue="JUnit.LeapYearTest" />
         <item itemvalue="JUnit.LeapYearTest.errorShouldThrowForNegativeYear (1)" />
         <item itemvalue="JUnit.LeapYearTest.errorShouldThrowForNegativeYear" />

@@ -22,5 +22,17 @@ class LeapYearTest {
         assertEquals(Boolean.FALSE,leapYear.isLeapYear(2019));
     }
 
+    //TODO:- All years divisible by 4 but not by 100 ARE leap years (e.g., 2008, 2012, 2016),
+    @Test
+    void leapYearWhenNotDivisibleByFour(){
+
+        assertEquals(Boolean.TRUE,leapYear.isLeapYear(2008));
+        assertEquals(Boolean.TRUE,leapYear.isLeapYear(2012));
+        assertEquals(Boolean.TRUE,leapYear.isLeapYear(2016));
+
+    }
+
+
+
 
 }
